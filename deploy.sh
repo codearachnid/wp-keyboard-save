@@ -5,7 +5,7 @@
 # main config
 PLUGINSLUG="keyboard-save"
 CURRENTDIR=`pwd`
-MAINFILE="wp-keyboard-save.php" # this should be the name of your main php file in the wordpress plugin
+MAINFILE="keyboard-save.php" # this should be the name of your main php file in the wordpress plugin
  
 # git config
 GITPATH="$CURRENTDIR/" # this file should be in the base of your git repository

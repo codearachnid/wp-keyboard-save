@@ -3,7 +3,7 @@
 Plugin Name: Keyboard Save
 Plugin URI: 
 Description: A simple WordPress plugin to extend save functionality to your keyboard outside of the general editor.
-Version: 1.0
+Version: 1.1
 Author: Timothy Wood @codearachnid
 Author URI: http://www.codearachnid.com
 Text Domain: wpkeysave
@@ -98,7 +98,7 @@ if( !function_exists('wpkeysave_init') ) {
 	}
 
 	function wpkeysave_scripts(){
-		wp_enqueue_script( 'wpkeysave_scripts', plugin_dir_url( __FILE__ ) . 'wp-keyboard-save.js', array('jquery'), '1.0', true );
+		wp_enqueue_script( 'wpkeysave_scripts', plugin_dir_url( __FILE__ ) . 'keyboard-save.js', array('jquery'), '1.0', true );
 	}
 
 	add_action( 'plugins_loaded', 'wpkeysave_init' );

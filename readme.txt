@@ -3,7 +3,7 @@ Contributors: codearachnid
 Tags: keyboard,save,cmd, cmd+s, cmd-s, ctrl, ctrl+s, ctrl-s, publish, save, shortcut, update, Post
 Requires at least: 3.7
 Tested up to: 3.9
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPL v3
 License URI: http://www.gnu.org/licenses/
 
